@@ -1,0 +1,328 @@
+<html>
+    <head>
+        <title>Search Page</title>
+        <style>
+             body {
+
+font-family: 'poppins';
+
+width: 1366px;
+height: 940px;
+border: 1px;
+box-shadow: 1px 1px 5px 1px #00000029;
+background-color: #fbfbfb;
+}
+
+.heading {
+height: 70px;
+width: 1366px;
+background-color: #ce0505;
+}
+
+.logo {
+display: inline-block;
+height: 52px;
+width: 52px;
+background-color: #ffffff;
+border-radius: 50%;
+color: #eb2929;
+font-size: 33px;
+font-weight: 600;
+text-align: center;
+margin-left: 102px;
+margin-top: 10px;
+}
+
+.account {
+float: right;
+}
+
+.account>button {
+color: #ffffff;
+background-color: #ce0505;
+border-color: white;
+border-radius: 3px;
+padding: 10px 10px;
+margin-top: 16px;
+margin-right: 100px;
+margin-left: -70px;
+font-size: 16px;
+}
+
+.places {
+width: 540px;
+height: 51px;
+margin-left: 113px;
+margin-top: 40px;
+color: #192f60;
+font-size: 36px;
+font-weight: bold;
+}
+
+.filters {
+border: 1px;
+height: 682px;
+width: 260px;
+box-shadow: 0px 3px 6px #00000029;
+background-color: #ffffff;
+padding-left: 30px;
+margin-top: 40px;
+margin-left: 113px;
+}
+
+.filter {
+font-size: 18px;
+font-weight: 600px;
+padding-top: 20px;
+color: #192f60;
+}
+
+.select-location {
+font-size: 14px;
+font-weight: 600px;
+color: #192f60;
+padding-top: 10px;
+}
+
+.location {
+color: #8C96AB;
+border: 1px solid #8C96AB;
+border-radius: 3px;
+margin-top: 15px;
+padding-left: 10px;
+height: 35px;
+width: 208px;
+}
+
+.cuisine {
+color: #192f60;
+font-size: 14px;
+padding-top: 40px;
+padding-bottom: 10px;
+}
+
+.check-box {
+font-size: 14px;
+color: #8C96AB;
+padding: 10px;
+}
+
+.shop-1 {
+border: 1px;
+width: 794px;
+height: 290px;
+box-shadow: 0px 3px 6px #00000029;
+background-color: #ffffff;
+margin-right: 300px;
+margin-top: -680px;
+margin-left: 450px;
+
+}
+
+.img {
+width: 120px;
+height: 120px;
+border-radius: 25px;
+margin-left: 35px;
+margin-top: 25px;
+}
+
+.top-items {
+position: relative;
+float: right;
+padding-top: -100px;
+padding-right: 200px;
+margin-top: -120px;
+}
+
+.hr {
+margin: 30px;
+opacity: 20%;
+}
+
+.name {
+color: #192f60;
+font-size: 30px;
+font-weight: 600;
+}
+
+.place {
+color: #192f60;
+font-size: 16px;
+font-weight: 600;
+}
+
+.address {
+color: #636F88;
+font-size: 16px;
+}
+
+.bottom-items {
+padding-left: 33px;
+}
+
+.gray {
+color: #636F88;
+
+}
+
+.blue {
+color: #192f60;
+padding-left: 100px;
+}
+
+.blues {
+color: #192f60;
+padding-left: 50px;
+}
+
+.shop-2 {
+border: 1px;
+width: 794px;
+height: 300px;
+box-shadow: 0px 3px 6px #00000029;
+background-color: #ffffff;
+margin-right: 300px;
+margin-top: 30px;
+margin-left: 450px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+        </style>
+    </head>
+    <body>
+    <!--account and logo-->
+    <div class="heading">
+       <div class="logo">e!</div>
+       <div class="account">
+           <button style="border-color:red ;">Login</button>
+           <button>Create an account</button>
+       </div>
+   </div>
+   <!-- places in mumbai-->
+   <br>
+   <div class="Places">
+       Breakfast Places in Mumbai
+   </div>
+   <!-- filters-->
+   <div class="filters">
+
+       <div class="filter">Filters</div>
+
+       <div >Select Location</div>
+       <select >
+        <option>Select Location</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+        <option>Hyderabad</option>
+        <option>Vijayawada</option>
+       </select>
+
+       <div class="cuisine">Cuisine</div>
+
+       <div>
+           <input type="checkbox">
+        North Indian</span>
+       </div>
+       <div>
+           <input type="checkbox">
+           South Indian</span>
+       </div>
+       <div>
+           <input type="checkbox">
+          Chinese</span>
+       </div>
+       <div>
+           <input type="checkbox">
+        Fast Food</span>
+       </div>
+       <div>
+           <input type="checkbox">
+          Street Food</span>
+       </div>
+
+       <div class="cuisine">Cost For Two</div>
+
+       <div>
+           <input type="radio"name>  less then *500</div>
+           <div> <input type="radio" > *500 to *1000</div>
+           <div> <input type="radio"> *1000 to *1500</div>
+           <div> <input type="radio">*1500 to *2000</div>
+           <div> <input type="radio">*2000+</div>
+          
+
+       <div class="cuisine">Sort</div>
+
+<div>
+           <input type="radio">
+           <span class="check">Price low to high</span>
+       </div>
+       <div>
+           <input type="radio">
+           <span class="check">Price high to low</span>
+       </div>
+   </div>
+   <!--shop 1 -->
+   <div class="shop-1">
+       <div>
+           <div>
+               <img src="./images/breakfast.jpg" alt="breakfast" class="img" style="border-radius:15% ;">
+           </div>
+           <div class="top-items">
+               <div class="name">The Big Chill Cakery</div>
+               <div class="place">FORT</div>
+               <div class="address">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+           </div>
+       </div>
+       <hr class="hr">
+       <div class="bottom-items">
+           <div class="gray">CUISINES: <span class="blue">Bakery</span></div>
+           <div class="gray">COST FOR TWO: <span class="blues">Rs.700</span></div>
+       </div>
+   </div>
+   <!-- shop 2 -->
+   <div class="shop-2">
+       <div>
+           <div>
+               <img src="./images/breakfast.jpg" alt="breakfast" class="img" style="border-radius:15% ;">
+           </div>
+           <div class="top-items">
+               <div class="name">The Bake Shop</div>
+               <div class="place">FORT</div>
+               <div class="address">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+           </div>
+       </div>
+       <hr class="hr">
+       <div class="bottom-items">
+           <div class="gray">CUISINES: <span class="blue">Bakery</span></div>
+           <div class="gray">COST FOR TWO: <span class="blues">Rs.700</span></div>
+          
+       </div>
+   </div>
+   <!-- pages -->
+   <div class="pagination">
+    <a href="#"><<</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">>></a>
+   </div>
+</body>
+</html>
